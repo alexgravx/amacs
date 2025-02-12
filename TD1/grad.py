@@ -12,11 +12,6 @@ def grad(f: np.ndarray):
     h : ndarray. Horizontal gradient
     """
     K, L = f.shape
-
-    print(f[:K, :L-1])
-    print(f[:K-1, :L-1])
-    print(f[:K-1, :L])
-    print(f[:K-1, :L-1])
     
     v = f[1:K, :L-1] - f[:K-1, :L-1]
     h = f[:K-1, 1:L] - f[:K-1, :L-1]
