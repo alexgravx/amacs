@@ -95,10 +95,7 @@ def main():
     rho = 0.2 * np.sqrt(K * L)
     precc = 1e-7; # precision for stopping criterion
     xr, cost = projected_gradient_algorithm(z, nitm, rho, gamma, indI, precc)
-    plt.figure(3)
-    plt.subplot(121)
     display_image(xr, "Restored Image with Constraint")
-    plt.subplot(122)
     plt.plot(cost)
     plt.title("Convergence Plot")
     plt.savefig("TD1/outputs/ConvergencePlot.png")
