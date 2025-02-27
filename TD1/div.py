@@ -12,11 +12,11 @@ def div(v, h):
     f : ndarray (divergence of v and h)
     """
     K, L = v.shape
-    f = np.zeros((K, L))
+    f = np.zeros((K + 1, L + 1))
 
-    f[1:, :] += v[:-1, :]
-    f[:-1, :] -= v[:-1, :]
-    f[:, 1:] += h[:, :-1]
-    f[:, :-1] -= h[:, :-1]
+    f[1:K+1, :L] = v
+    f[:K, :L] -= v
+    f[:K, 1:L+1] += h
+    f[:K, :L] -= h
 
     return f

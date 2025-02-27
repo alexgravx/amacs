@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from div import div
 from grad import grad
-from projball2 import projball2
+from TD1.projball2_enonce import projball2
 
 def load_image(filename):
     return np.loadtxt(filename)
@@ -62,7 +62,7 @@ def accelerated_algorithm(z, nitm, beta2):
 
 def main():
     # load image
-    z = load_image("marie_degraded")
+    z = load_image("TD1/marie_degraded")
     
     # image size
     K, L = z.shape
