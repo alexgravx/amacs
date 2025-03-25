@@ -16,6 +16,9 @@ def phasei(A, b, tol=1e-7, ztol=1e-7):
     - wmax: Artificial objective value
     - ibasic: Indices of the basic variables at optimality
     - PHIiter: Number of Phase I iterations performed
+
+    See also PHASEII
+    Written by Jeff Stuart
     """
     m, n = A.shape
     A = np.hstack([A, np.eye(m)])

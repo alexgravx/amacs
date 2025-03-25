@@ -16,7 +16,6 @@ def simplexe(A, b, c):
 
     Cette routine est le clone de 'linprog', développé par Jeff Stuart
     """
-    
     # Dimensions de A
     m, n = A.shape
     

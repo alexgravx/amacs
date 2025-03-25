@@ -2,9 +2,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def phaseii(A, b, c, ibasic):
-    # PHASEII effectue la phase II de la méthode du simplexe en commençant avec les
-    # colonnes de base spécifiées par le vecteur ibasic.
-    
+    """
+    PHASEII effectue la phase II de la méthode du simplexe en commençant avec les
+    colonnes de base spécifiées par le vecteur ibasic.
+
+    See also PHASEI
+    Written by Jeff Stuart
+    """
     m, n = A.shape
     PCOL = []
     ienter = []
