@@ -102,8 +102,8 @@ def phasei(A, b, tol=1e-7, ztol=1e-7):
 
 
 # Example usage:
-A = np.array([[1, -1], [1, 2], [3, 4]])  # Example constraint matrix
-b = np.array([1, 2, 3])  # Example right-hand side vector
+# A = np.array([[1, -1], [1, 2], [3, 4]])  # Example constraint matrix
+# b = np.array([1, 2, 3])  # Example right-hand side vector
 
-wmax, ibasic, PHIiter = phasei(A, b)
-print(f"wmax: {wmax}, ibasic: {ibasic}, PHIiter: {PHIiter}")
+# wmax, ibasic, PHIiter = phasei(A, b)
+# print(f"wmax: {wmax}, ibasic: {ibasic}, PHIiter: {PHIiter}")

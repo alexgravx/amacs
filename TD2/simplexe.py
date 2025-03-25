@@ -1,5 +1,7 @@
 import numpy as np
 import time
+from phasei import phasei
+from phaseii import phaseii
 
 def simplexe(A, b, c):
     """
@@ -20,7 +22,7 @@ def simplexe(A, b, c):
     m, n = A.shape
     
     # Vérifications des dimensions
-    if b.shape != (m, 1):
+    if b.shape != (m,):
         print("The dimensions of b do not match the dimensions of A.")
         return
     
@@ -28,7 +30,7 @@ def simplexe(A, b, c):
         print("The RHS vector b must be nonnegative.")
         return
     
-    if c.shape != (n, 1):
+    if c.shape != (n,):
         print("The dimensions of c do not match the dimensions of A.")
         return
     
@@ -36,6 +38,7 @@ def simplexe(A, b, c):
         print("A does not have full row rank.")
         return
     
+    print("Everything good, starting calculus")
     # Variables initiales
     PHIiter = 0
     PHIIiter = 0
