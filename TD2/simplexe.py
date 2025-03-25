@@ -2,9 +2,20 @@ import numpy as np
 import time
 
 def simplexe(A, b, c):
-    # Simplexe résout le problème:
-    #      max (cx) sous la contrainte Ax = b, avec b >= 0
-    # par l'algorithme du simplexe.
+    """
+    Algorithme du simplexe
+    Permet de résoudre le problème
+    max (cx) sous la contrainte Ax = b , avec b >= 0
+
+    En sortie, elle retourne :
+    zmax : la valeur du profit à l'optimum.
+    PHIiter : le nombre d'itération dans la phase I.
+    PHIIiter : le nombre d'itération dans la phase II.
+    xbasic : Les valeurs des variables de base à l'optimum.
+    ibasic : les indices des variables de base à l'optimum.
+
+    Cette routine est le clone de 'linprog', développé par Jeff Stuart
+    """
     
     # Dimensions de A
     m, n = A.shape
