@@ -41,12 +41,13 @@ make delete
 
 # Authors
 
-Alexandre Gravereaux
-Hugues du Moulinet D'Hardemare
+- Alexandre Gravereaux
+- Hugues du Moulinet D'Hardemare
 
 # Contributions
 
 Licence Creative Commons CC BY-SA
 
 This repo is open to all contributions, whether for improvements or updates as TD topics evolve.
-Don't forget to cite all the authors who contributed to this work.
+
+Don't forget to **cite** all the authors who contributed to this work.
