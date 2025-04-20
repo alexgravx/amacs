@@ -18,7 +18,14 @@ We thus think **students should have the choice** and the ability to use Python 
 
 # Quick start
 
-For each tutorial, there is a associated folder (TD1, TD2, TD3 and TD4).
+First, setup the env with:
+
+````
+make setup
+make install
+````
+
+Then, for each tutorial, there is a associated folder (TD1, TD2, TD3 and TD4).
 In each folder, you will find subject/ and correction/ subfolders.
 Thos folders contain python files needed for the tutorial, as well as a **Jupyter Notebook which is the main file to fill to complete the programming part of the tutorial.**
 
