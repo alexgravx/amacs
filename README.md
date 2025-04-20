@@ -9,6 +9,8 @@ We thus think **students should have the choice** and the ability to use Python 
 
 **Don't hesitate to add a star if this repo has helped you**
 
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/alexgravx/AMACS?style=social&logoColor=yellow&label=Give%20a%20star">
+
 # Tutorials overview
 
 - TD1 - Convex Optimization: application on digital images recovery
@@ -17,6 +19,8 @@ We thus think **students should have the choice** and the ability to use Python 
 - TD4 - Constraints in continous optimization: application to Euromillion prize
 
 # Quick start
+
+*Note: you'll need pyenv installed*
 
 First, setup the env with:
 
@@ -28,6 +32,12 @@ make install
 Then, for each tutorial, there is a associated folder (TD1, TD2, TD3 and TD4).
 In each folder, you will find subject/ and correction/ subfolders.
 Thos folders contain python files needed for the tutorial, as well as a **Jupyter Notebook which is the main file to fill to complete the programming part of the tutorial.**
+
+You can last delete the env with:
+
+````
+make delete
+````
 
 # Authors
 
