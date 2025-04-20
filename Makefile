@@ -4,3 +4,5 @@ install:
 	@eval "$$(pyenv init -)" && \
 	pyenv activate optimization && \
 	pip install -r requirements.txt
+delete:
+	pyenv virtualenv-delete optimization
