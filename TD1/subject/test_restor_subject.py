@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from div import div
-from grad import grad
-from TD1.projball2_enonce import projball2
+from TD1.div import div
+from TD1.grad import grad
+from TD1.subject.projball2_subject import projball2
 
 def load_image(filename):
     return np.loadtxt(filename)

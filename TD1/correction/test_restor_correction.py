@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from div import div
-from grad import grad
-from projball2_corrige import projball2
+from TD1.div import div
+from TD1.grad import grad
+from TD1.correction.projball2_correction import projball2
 
 def load_image(filename):
     return np.loadtxt(filename)
