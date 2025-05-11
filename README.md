@@ -47,7 +47,7 @@ make delete
 ## Windows
 
 You can configure a virtual environment with the packages provided in `requirements.txt`. \
-Install them with `pip install -r requirements.txr`
+Install them with `pip install -r requirements.txt`
 
 # Authors
 
