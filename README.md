@@ -20,7 +20,11 @@ We thus think **students should have the choice** and the ability to use Python 
 
 # Quick start
 
-*Note: you'll need pyenv installed*
+## MacOS / Linux
+
+Note: 
+- You'll need *pyenv* installed, see here: https://github.com/pyenv/pyenv
+- You'll also need *make* command installed, via brew on MacOS or apt on Linux
 
 First, setup the env with:
 
@@ -30,14 +34,20 @@ make install
 ````
 
 Then, for each tutorial, there is a associated folder (TD1, TD2, TD3 and TD4).
-In each folder, you will find subject/ and correction/ subfolders.
-Thos folders contain python files needed for the tutorial, as well as a **Jupyter Notebook which is the main file to fill to complete the programming part of the tutorial.**
+In each folder, you will find `subject/` and `correction/` subfolders.
+They contain python files needed for the tutorial, as well as a *Jupyter Notebook* which is **the main file to fill to complete the programming part of the tutorial.**
+If you are using VSCode, don't forget to select the right virtual environment for the jupyter notebook.
 
 You can last delete the env with:
 
 ````
 make delete
 ````
+
+## Windows
+
+You can configure a virtual environment with the packages provided in `requirements.txt`. \
+Install them with `pip install -r requirements.txr`
 
 # Authors
 
