@@ -56,7 +56,7 @@ Install them with `pip install -r requirements.txt`
 
 # Contributions
 
-Licence Creative Commons CC BY-SA
+Licence Creative Commons CC BY
 
 This repo is open to all contributions, whether for improvements or updates as TD topics evolve.
 
